@@ -18,9 +18,9 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout()
 
         # Захардкоженные пути
-        self.default_save_path = "/home/alex/PycharmProjects/pythonProject4/MyRez"
-        self.default_images_path = "/home/alex/PycharmProjects/pythonProject4/MyPic"
-        self.default_word_path = "/home/alex/PycharmProjects/pythonProject4/MyPic/document.docx"
+        self.default_save_path = "/home/alex/Рабочий стол/Model/MyRez"
+        self.default_images_path = "/home/alex/Рабочий стол/Model/MyPic"
+        self.default_word_path = "/home/alex/Рабочий стол/Model/MyPic/document.docx"
 
         # Кнопка и метка для выбора папки сохранения презентации
         self.save_path_label = QLabel(f'Папка для сохранения: {self.default_save_path}', self)
