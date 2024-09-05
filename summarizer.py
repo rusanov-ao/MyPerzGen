@@ -3,7 +3,7 @@ from transformers import T5ForConditionalGeneration
 from transformers import T5Tokenizer
 
 
-def summarize_text(text, model_directory='/home/alex/PycharmProjects/pythonProject4/rut5_base_sum_gazeta', max_length=100, min_length=40):
+def summarize_text(text, model_directory='/home/alex/Рабочий стол/Model/rut5_base_sum_gazeta', max_length=100, min_length=40):
     """
     Выполняет суммаризацию текста с использованием модели T5.
 
